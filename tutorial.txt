@@ -1,0 +1,57 @@
+://github.com/taitai94/raspiRepo.git
+
+
+
+
+
+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
+
+
+
+
+
+save password
+
+git config --global credential.helper store
+
+git config --global credential.helper cache
+
+git config --global credential.helper 'cache --timeout=3600'
+
+
+
+bind "set completion-ignore-case on"
+
+
+
+OPENGL: git clone https://github.com/nigels-com/glew.git glew
+
+
+
+SDL2 https://github.com/libsdl-org/SDL.git
+
+
+
+sudo apt-get install build-essential libxmu-dev libxi-dev libgl-dev cmake git
+
+
+
+e "s|@prefix@|/usr/local|g" \
+
+	-e "s|@libdir@|/usr/local/lib|g" \
+
+	-e "s|@exec_prefix@|/usr/local/bin|g" \
+
+	-e "s|@includedir@|/usr/local/include/GL|g" \
+
+	-e "s|@version@|2.2.0|g" \
+
+	-e "s|@cflags@||g" \
+
+	-e "s|@libname@|GLEW|g" \
+
+	-e "s|@libgl@|-lGL -lX11|g" \
+
+	-e "s|@requireslib@|glu|g" \
+
+
