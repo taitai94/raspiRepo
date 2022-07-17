@@ -4,7 +4,7 @@ https://github.com/taitai94/raspiRepo.git
 
 
 
-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
+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
 
 
 
@@ -48,13 +48,13 @@ gcc main.c -o app -I/usr/local/include/SDL2 -D_REENTRANT -L/usr/local/lib -Wl,-r
 
 
 
-g++ main.cpp -lGLEW -Wl,-rpath,/usr/local/lib -Wl,--enable-new-dtags -Wl,-Bstatic -lSDL2 -Wl,-Bdynamic -lm -ldl -lpthread -lrt -o app -I/usr/local/include/SDL2 -D_REENTRANT -L/usr/local/lib
+g++ main.cpp -lGL -lGLEW -Wl,-rpath,/usr/local/lib -Wl,--enable-new-dtags -Wl,-Bstatic -lSDL2 -Wl,-Bdynamic -lm -ldl -lpthread -lrt -o app -I/usr/local/include -D_REENTRANT -L/usr/local/lib
 
 
 
 missing glu.h : sudo apt-get install libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev
 
-
+vim ~/.vimrc
 
 
 
